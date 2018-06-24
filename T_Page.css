@@ -1,0 +1,111 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:grey;
+	font-family:'Lobster Two';
+	border:40px inset white;
+}
+h1{
+	font-size:80px;
+	text-align: center;
+	color:white;
+}
+#box{
+	width:1300px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	background-color: black;
+	color:black;
+	padding-top:20px;
+	padding-bottom:20px;
+	border:3px dashed white;
+}
+#contentbox{
+	width:1200px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+}
+#contentbox h4{
+	text-align:center;
+	font-family:Georgia;
+	font-size:40px;
+}
+#contentbox h4 span{
+	font-size:25px;
+	float:right;
+}
+#outerbox
+{
+	width:700px;
+	overflow:hidden;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	border:3px dotted white;
+}
+#sliderbox
+{
+	position: relative;
+	width: 2800px ;
+	animation-name:Slider;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+}
+#sliderbox img
+{
+	float:left;
+
+}
+#footer{
+	margin-top:25px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+#footer h3{
+	font-size:30px;
+	font-family:cursive;
+	text-align:center;
+	color:white;
+}
+#footer h3 span{
+	color:red;
+}
+@keyframes Slider
+{
+	0%{
+		left:0px;
+	}
+	20%{
+		left:0px;
+	}
+	25%{
+		left:-700px;
+	}
+	45%{
+		left:-700px;
+	}
+	50%{
+		left:-1400px;
+	}
+	70%{
+		left:-1400px;
+	}
+	75%{
+		left:-2100px;
+	}
+	95%{
+		left:-2100px;
+	}
+	100%{
+		left:-2800px;
+	}
+}
